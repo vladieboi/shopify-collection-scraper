@@ -14,7 +14,7 @@ def parseArguments():
 args = parseArguments()
 
 # Check if domain is set
-if args.domain == False:
+if args.domain == None:
 	# Show error message and exit if domain is not set
 	print('You must specify a domain to be scraped using "--domain" argument!')
 	exit()
